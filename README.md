@@ -1,4 +1,5 @@
 # NgxBootloading
+MIT LICENSE
 
 Ngx boot Loading is repository of css animation loading on initial Angular 2 Web apps loading. 
 The source of each animation css and html source is available at /lib folder
