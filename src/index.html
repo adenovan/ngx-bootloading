@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>NgxBootloading</title>
@@ -7,8 +8,23 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="assets/bootloading.min.css">
 </head>
+
 <body>
-  <bt-root>Loading...</bt-root>
+  <bt-root>
+    <div class="bootloading-wrapper">
+      <img src="assets/logo.png" alt="" class="bootloading-logo">
+      <h1 class="bootloading-title">Company Name</h1>
+      <div class="bootloading-bubble-wrapper ">
+        <div class="dot-1"></div>
+        <div class="dot-2"></div>
+        <div class="dot-3"></div>
+        <div class="dot-4"></div>
+        <div class="dot-5"></div>
+      </div>
+    </div>
+  </bt-root>
 </body>
+
 </html>
