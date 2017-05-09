@@ -14,4 +14,4 @@ More to come
 Demo of Angular 2 App use this loading
 https://adenovan.github.io/ngx-bootloading
 
-Example Angular 2 project available at /src folder and was generated with [Angular CLI] (https://github.com/angular/angular-cli) version 1.0.1.
+Example Angular 2 project with this initial custom loading animation available at /src folder and was generated with [Angular CLI] (https://github.com/angular/angular-cli) version 1.0.1.
