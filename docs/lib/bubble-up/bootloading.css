@@ -1,4 +1,4 @@
- .bootloading-wrapper {
+         .bootloading-wrapper {
             position: fixed;
             left: 50%;
             margin: 25vh auto;
@@ -84,8 +84,8 @@
             opacity: 1;
             animation: 4s dotFade5 infinite;
         }
+
         /* Safari 4.0 - 8.0 */
-        
         @-webkit-keyframes dotFade1 {
             0% {
                 background-color: #795548;
@@ -171,6 +171,112 @@
         }
         
         @-webkit-keyframes dotFade5 {
+            60% {
+                background-color: #795548;
+                box-shadow: 0 4px 2px -2px gray;
+                transform: scaleX(1) scaleY(1);
+                bottom: 0px;
+            }
+            75% {
+                bottom: 20px;
+                background-color: #8D6E63;
+                box-shadow: 0 20px 2px -2px #DEDEDE;
+                transform: scaleX(1.2) scaleY(1.2);
+            }
+            90% {
+                background-color: #795548;
+                transform: scaleX(1) scaleY(1);
+                box-shadow: 0 4px 2px -2px gray;
+                bottom: 0px;
+            }
+        }
+
+        /* Standart animation */
+        @keyframes dotFade1 {
+            0% {
+                background-color: #795548;
+                box-shadow: 0 4px 2px -2px gray;
+                transform: scaleX(1) scaleY(1);
+                bottom: 0px;
+            }
+            15% {
+                bottom: 20px;
+                background-color: #8D6E63;
+                box-shadow: 0 20px 2px -2px #DEDEDE;
+                transform: scaleX(1.2) scaleY(1.2);
+            }
+            30% {
+                background-color: #795548;
+                transform: scaleX(1) scaleY(1);
+                box-shadow: 0 4px 2px -2px gray;
+                bottom: 0px;
+            }
+        }
+        
+        @keyframes dotFade2 {
+            15% {
+                background-color: #F44336;
+                box-shadow: 0 4px 2px -2px gray;
+                transform: scaleX(1) scaleY(1);
+                bottom: 0px;
+            }
+            30% {
+                bottom: 20px;
+                background-color: #E57373;
+                box-shadow: 0 20px 2px -2px #DEDEDE;
+                transform: scaleX(1.2) scaleY(1.2);
+            }
+            45% {
+                background-color: #F44336;
+                transform: scaleX(1) scaleY(1);
+                box-shadow: 0 4px 2px -2px gray;
+                bottom: 0px;
+            }
+        }
+        
+        @keyframes dotFade3 {
+            30% {
+                background-color: #E91E63;
+                box-shadow: 0 4px 2px -2px gray;
+                transform: scaleX(1) scaleY(1);
+                bottom: 0px;
+            }
+            45% {
+                bottom: 20px;
+                background-color: #F06292;
+                box-shadow: 0 20px 2px -2px #DEDEDE;
+                transform: scaleX(1.2) scaleY(1.2);
+            }
+            60% {
+                background-color: #E91E63;
+                transform: scaleX(1) scaleY(1);
+                box-shadow: 0 4px 2px -2px gray;
+                bottom: 0px;
+            }
+        }
+        
+        @keyframes dotFade4 {
+            45% {
+                background-color: #F44336;
+                box-shadow: 0 4px 2px -2px gray;
+                transform: scaleX(1) scaleY(1);
+                bottom: 0px;
+            }
+            60% {
+                bottom: 20px;
+                background-color: #E57373;
+                box-shadow: 0 20px 2px -2px #DEDEDE;
+                transform: scaleX(1.2) scaleY(1.2);
+            }
+            75% {
+                background-color: #F44336;
+                transform: scaleX(1) scaleY(1);
+                box-shadow: 0 4px 2px -2px gray;
+                bottom: 0px;
+            }
+        }
+        
+        @keyframes dotFade5 {
             60% {
                 background-color: #795548;
                 box-shadow: 0 4px 2px -2px gray;

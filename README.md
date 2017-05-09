@@ -5,14 +5,21 @@ Ngx boot Loading is repository of Pre Bootstrap Angular 2 css animation on initi
 The source of each animation css and html source is available at /lib folder each folder is a Pre Bootstrap loading page! make sure to check the demo
 
 # Demo
-First Lib Loading Animation
+First Loading Animation library Bubble-up
 https://adenovan.github.io/ngx-bootloading/lib/bubble-up
-
 
 More to come
 
 # Usage
-place html template lib/folder/html on your app-root tag
+
+put the library template's css on assets folder and don't forget to include the template css on index.html head!
+
+```bash
+  <link rel="stylesheet" href="assets/bootloading.min.css">
+```
+
+copy html inside body tag on library template lib/folder/index.html and paste on your app-root tag
+
 ```bash
 <app-root>
     <div class="bootloading-wrapper">
@@ -28,7 +35,6 @@ place html template lib/folder/html on your app-root tag
     </div>
 </app-root> 
 ```
-don't forget to include the css on the head!
 
 # Example
 Demo of Angular 2 App use this loading
