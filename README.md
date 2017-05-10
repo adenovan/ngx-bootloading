@@ -8,6 +8,9 @@ The source of each animation css and html source is available at /lib folder eac
 First Loading Animation library Bubble-up
 https://adenovan.github.io/ngx-bootloading/lib/bubble-up
 
+Line Grow
+https://adenovan.github.io/ngx-bootloading/lib/line-grow
+
 More to come
 
 # Usage
